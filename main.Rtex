@@ -1,0 +1,56 @@
+\documentclass[fleqn,10pt]{wlscirep}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%Path relative to the main .tex file 
+\graphicspath{ {./figs/} }
+
+\title{Preventing harassment in online discussions with normative information}
+
+\author[1,*]{Alice Author}
+\author[2]{Bob Author}
+\author[1,2,+]{Christine Author}
+\author[2,+]{Derek Author}
+\affil[1]{Affiliation, department, city, postcode, country}
+\affil[2]{Affiliation, department, city, postcode, country}
+
+\affil[*]{corresponding.author@email.example}
+
+\affil[+]{these authors contributed equally to this work}
+
+
+\begin{abstract}
+
+\end{abstract}
+\begin{document}
+
+\flushbottom
+\maketitle
+
+\thispagestyle{empty}
+
+\noindent Please note: Abbreviations should be introduced at the first mention in the main text – no abbreviations lists. Suggested structure of main text (not enforced) is provided below.
+
+\section*{Introduction}
+
+The Introduction section, of referenced text\cite{Figueredo:2009dg} expands on the background of the work (some overlap with the Abstract is acceptable). The introduction should not include subheadings.
+
+\section*{Results}
+
+
+\section*{Discussion}
+
+The Discussion should be succinct and must not contain subheadings.
+
+\section*{Materials and Methods}
+
+
+\bibliography{references}
+
+\section*{Acknowledgements}
+
+Acknowledgements should be brief, and should not include thanks to anonymous referees and editors, or effusive comments. Grant or contribution numbers may be acknowledged.
+
+\section*{Author contributions statement}
+
+\end{document}
